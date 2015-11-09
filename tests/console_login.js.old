@@ -1,0 +1,13 @@
+module.exports = {
+    'Test': function (client) {
+        var login = client.page.loginPage();
+  
+        login.navigate()
+            .setValue('@username', 'incubator_testing1@bazaarvoice.com')
+            .setValue('@password', 'Password123!')
+            .signin();
+
+        client.end();
+    }
+};
+

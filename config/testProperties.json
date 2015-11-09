@@ -1,0 +1,18 @@
+{
+    "baseUrl": "https://bilbo.feedmagnet.com",
+    "admin": "/admin",
+    "setupWizard": "/tools/setup_wizard",
+    "username": "incubator_testing1@bazaarvoice.com",
+    "password": "Password123!",
+    "defaultTimeout": 3000,
+    "twitterApiKey": "VvjlBo2XDGXPtfYsi9DxWw",
+    "twitterApiSecret": "P094Nk4ojyNN3gWZmH6MHDTYKSpubJ1mfPJQ96zHw",
+    "twitterAccessToken": "2546384256-Ek1KcrmQB9wTq8Iy7CRvBEwcMCQu4Auw4XqFLXg",
+    "twitterAccessSecret": "y2OCRaTvbd7b284RdhGV64xbq0iRGY0vQ4my02VZBqYLq",
+    "bazaarvoiceWorkbenchName": "bestbuy",
+    "sources": 40,
+    "pageViewsPerMo": 10000,
+    "pageViewsPerHr": 100,
+    "updatesPerHr": 500
+}
+

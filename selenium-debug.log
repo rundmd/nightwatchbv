@@ -1,0 +1,198 @@
+02:51:55.731 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to chromedriver
+02:51:55.762 INFO - Java: Oracle Corporation 25.25-b02
+02:51:55.762 INFO - OS: Mac OS X 10.9.5 x86_64
+02:51:55.772 INFO - v2.48.0, with Core v2.48.0. Built from revision 41bccdd
+02:51:55.825 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+02:51:55.825 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+02:51:55.825 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+02:51:55.825 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+02:51:55.883 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+02:51:55.883 INFO - Selenium Server is up and running
+02:51:56.156 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Wizard Setup, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+02:51:56.164 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Wizard Setup, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.15.322455 (ae8db840dac8d0c453355d3d922c91adfb61df8f) on port 34334
+Only local connections are allowed.
+02:51:57.698 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Wizard Setup, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+02:51:57.743 INFO - Executing: [get: https://bilbo.feedmagnet.com/])
+02:51:59.919 INFO - Done: [get: https://bilbo.feedmagnet.com/]
+02:51:59.928 INFO - Executing: [find element: By.cssSelector: #id_username])
+02:51:59.952 INFO - Done: [find element: By.cssSelector: #id_username]
+02:51:59.960 INFO - Executing: [send keys: 0 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_username], [i, n, c, u, b, a, t, o, r, _, t, e, s, t, i, n, g, 1, @, b, a, z, a, a, r, v, o, i, c, e, ., c, o, m]])
+02:52:00.023 INFO - Done: [send keys: 0 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_username], [i, n, c, u, b, a, t, o, r, _, t, e, s, t, i, n, g, 1, @, b, a, z, a, a, r, v, o, i, c, e, ., c, o, m]]
+02:52:00.027 INFO - Executing: [find element: By.cssSelector: #id_password])
+02:52:00.048 INFO - Done: [find element: By.cssSelector: #id_password]
+02:52:00.051 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_password], [P, a, s, s, w, o, r, d, 1, 2, 3, !]])
+02:52:00.109 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_password], [P, a, s, s, w, o, r, d, 1, 2, 3, !]]
+02:52:00.114 INFO - Executing: [find elements: By.cssSelector: #fm-form-login > div > button])
+02:52:00.141 INFO - Done: [find elements: By.cssSelector: #fm-form-login > div > button]
+02:52:00.145 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #fm-form-login > div > button]])
+02:52:00.159 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #fm-form-login > div > button]]
+02:52:00.163 INFO - Executing: [find element: By.cssSelector: #fm-form-login > div > button])
+02:52:00.175 INFO - Done: [find element: By.cssSelector: #fm-form-login > div > button]
+02:52:00.178 INFO - Executing: [click: 2 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #fm-form-login > div > button]])
+02:52:00.202 INFO - Done: [click: 2 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #fm-form-login > div > button]]
+02:52:00.205 INFO - Executing: [find elements: By.cssSelector: #tab-bar > h1])
+02:52:03.708 INFO - Done: [find elements: By.cssSelector: #tab-bar > h1]
+02:52:03.712 INFO - Executing: [find elements: By.cssSelector: #tab-bar > h1])
+02:52:03.723 INFO - Done: [find elements: By.cssSelector: #tab-bar > h1]
+02:52:03.726 INFO - Executing: [get text: 3 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #tab-bar > h1]])
+02:52:03.741 INFO - Done: [get text: 3 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #tab-bar > h1]]
+02:52:03.780 INFO - Executing: [get: https://bilbo.feedmagnet.com/tools/setup_wizard])
+02:52:04.074 INFO - Done: [get: https://bilbo.feedmagnet.com/tools/setup_wizard]
+02:52:04.078 INFO - Executing: [find elements: By.cssSelector: #id_twitter-access_token])
+02:52:04.093 INFO - Done: [find elements: By.cssSelector: #id_twitter-access_token]
+02:52:04.096 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_token]])
+02:52:04.124 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_token]]
+02:52:04.128 INFO - Executing: [find element: By.cssSelector: #id_twitter-access_token])
+02:52:04.140 INFO - Done: [find element: By.cssSelector: #id_twitter-access_token]
+02:52:04.144 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_token], [2, 5, 4, 6, 3, 8, 4, 2, 5, 6, -, E, k, 1, K, c, r, m, Q, B, 9, w, T, q, 8, I, y, 7, C, R, v, B, E, w, c, M, C, Q, u, 4, A, u, w, 4, X, q, F, L, X, g]])
+02:52:04.235 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_token], [2, 5, 4, 6, 3, 8, 4, 2, 5, 6, -, E, k, 1, K, c, r, m, Q, B, 9, w, T, q, 8, I, y, 7, C, R, v, B, E, w, c, M, C, Q, u, 4, A, u, w, 4, X, q, F, L, X, g]]
+02:52:04.239 INFO - Executing: [find elements: By.cssSelector: #id_twitter-access_secret])
+02:52:04.253 INFO - Done: [find elements: By.cssSelector: #id_twitter-access_secret]
+02:52:04.256 INFO - Executing: [is displayed: 5 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_secret]])
+02:52:04.269 INFO - Done: [is displayed: 5 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_secret]]
+02:52:04.272 INFO - Executing: [find element: By.cssSelector: #id_twitter-access_secret])
+02:52:04.284 INFO - Done: [find element: By.cssSelector: #id_twitter-access_secret]
+02:52:04.287 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_secret], [y, 2, O, C, R, a, T, v, b, d, 7, b, 2, 8, 4, R, d, h, G, V, 6, 4, x, b, q, 0, i, R, G, Y, 0, v, Q, 4, m, y, 0, 2, V, Z, B, q, Y, L, q]])
+02:52:04.354 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_twitter-access_secret], [y, 2, O, C, R, a, T, v, b, d, 7, b, 2, 8, 4, R, d, h, G, V, 6, 4, x, b, q, 0, i, R, G, Y, 0, v, Q, 4, m, y, 0, 2, V, Z, B, q, Y, L, q]]
+02:52:04.358 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:04.373 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:04.375 INFO - Executing: [is displayed: 6 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:04.386 INFO - Done: [is displayed: 6 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:04.389 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:04.400 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:04.403 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:04.429 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:04.432 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:04.680 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:04.683 INFO - Executing: [is displayed: 7 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:04.696 INFO - Done: [is displayed: 7 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:04.699 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:04.716 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:04.719 INFO - Executing: [click: 7 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:04.746 INFO - Done: [click: 7 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:04.749 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:04.992 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:04.994 INFO - Executing: [is displayed: 8 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.005 INFO - Done: [is displayed: 8 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.008 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:05.014 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:05.017 INFO - Executing: [click: 8 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.043 INFO - Done: [click: 8 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.048 INFO - Executing: [find elements: By.cssSelector: #id_bazaarvoice-client_id])
+02:52:05.288 INFO - Done: [find elements: By.cssSelector: #id_bazaarvoice-client_id]
+02:52:05.291 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]])
+02:52:05.303 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]]
+02:52:05.305 INFO - Executing: [find element: By.cssSelector: #id_bazaarvoice-client_id])
+02:52:05.316 INFO - Done: [find element: By.cssSelector: #id_bazaarvoice-client_id]
+02:52:05.318 INFO - Executing: [clear: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]])
+02:52:05.334 INFO - Done: [clear: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]]
+02:52:05.339 INFO - Executing: [find elements: By.cssSelector: #id_bazaarvoice-client_id])
+02:52:05.346 INFO - Done: [find elements: By.cssSelector: #id_bazaarvoice-client_id]
+02:52:05.349 INFO - Executing: [is displayed: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]])
+02:52:05.355 INFO - Done: [is displayed: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id]]
+02:52:05.357 INFO - Executing: [find element: By.cssSelector: #id_bazaarvoice-client_id])
+02:52:05.363 INFO - Done: [find element: By.cssSelector: #id_bazaarvoice-client_id]
+02:52:05.365 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id], [b, e, s, t, b, u, y]])
+02:52:05.399 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_bazaarvoice-client_id], [b, e, s, t, b, u, y]]
+02:52:05.404 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:05.409 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:05.411 INFO - Executing: [is displayed: 10 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.423 INFO - Done: [is displayed: 10 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.428 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:05.433 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:05.436 INFO - Executing: [click: 10 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.463 INFO - Done: [click: 10 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.467 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:05.931 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:05.933 INFO - Executing: [is displayed: 11 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.945 INFO - Done: [is displayed: 11 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.948 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:05.955 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:05.956 INFO - Executing: [click: 11 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:05.980 INFO - Done: [click: 11 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:05.984 INFO - Executing: [find elements: By.cssSelector: #id_account_limits-sources])
+02:52:06.238 INFO - Done: [find elements: By.cssSelector: #id_account_limits-sources]
+02:52:06.240 INFO - Executing: [is displayed: 12 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-sources]])
+02:52:06.254 INFO - Done: [is displayed: 12 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-sources]]
+02:52:06.256 INFO - Executing: [find element: By.cssSelector: #id_account_limits-sources])
+02:52:06.269 INFO - Done: [find element: By.cssSelector: #id_account_limits-sources]
+02:52:06.272 INFO - Executing: [send keys: 12 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-sources], [4, 0]])
+02:52:06.310 INFO - Done: [send keys: 12 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-sources], [4, 0]]
+02:52:06.313 INFO - Executing: [find elements: By.cssSelector: #id_account_limits-impressions_per_month])
+02:52:06.327 INFO - Done: [find elements: By.cssSelector: #id_account_limits-impressions_per_month]
+02:52:06.329 INFO - Executing: [is displayed: 13 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_month]])
+02:52:06.339 INFO - Done: [is displayed: 13 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_month]]
+02:52:06.341 INFO - Executing: [find element: By.cssSelector: #id_account_limits-impressions_per_month])
+02:52:06.354 INFO - Done: [find element: By.cssSelector: #id_account_limits-impressions_per_month]
+02:52:06.356 INFO - Executing: [send keys: 13 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_month], [1, 0, 0, 0, 0]])
+02:52:06.388 INFO - Done: [send keys: 13 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_month], [1, 0, 0, 0, 0]]
+02:52:06.391 INFO - Executing: [find elements: By.cssSelector: #id_account_limits-impressions_per_hour])
+02:52:06.402 INFO - Done: [find elements: By.cssSelector: #id_account_limits-impressions_per_hour]
+02:52:06.404 INFO - Executing: [is displayed: 14 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_hour]])
+02:52:06.415 INFO - Done: [is displayed: 14 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_hour]]
+02:52:06.417 INFO - Executing: [find element: By.cssSelector: #id_account_limits-impressions_per_hour])
+02:52:06.430 INFO - Done: [find element: By.cssSelector: #id_account_limits-impressions_per_hour]
+02:52:06.432 INFO - Executing: [send keys: 14 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_hour], [1, 0, 0]])
+02:52:06.459 INFO - Done: [send keys: 14 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-impressions_per_hour], [1, 0, 0]]
+02:52:06.463 INFO - Executing: [find elements: By.cssSelector: #id_account_limits-updates_per_hour])
+02:52:06.479 INFO - Done: [find elements: By.cssSelector: #id_account_limits-updates_per_hour]
+02:52:06.485 INFO - Executing: [is displayed: 15 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-updates_per_hour]])
+02:52:06.497 INFO - Done: [is displayed: 15 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-updates_per_hour]]
+02:52:06.500 INFO - Executing: [find element: By.cssSelector: #id_account_limits-updates_per_hour])
+02:52:06.511 INFO - Done: [find element: By.cssSelector: #id_account_limits-updates_per_hour]
+02:52:06.514 INFO - Executing: [send keys: 15 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-updates_per_hour], [5, 0, 0]])
+02:52:06.544 INFO - Done: [send keys: 15 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_account_limits-updates_per_hour], [5, 0, 0]]
+02:52:06.547 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:06.553 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:06.555 INFO - Executing: [is displayed: 16 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:06.564 INFO - Done: [is displayed: 16 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:06.566 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:06.572 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:06.574 INFO - Executing: [click: 16 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:06.601 INFO - Done: [click: 16 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:06.603 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:06.865 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:06.867 INFO - Executing: [is displayed: 17 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:06.879 INFO - Done: [is displayed: 17 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:06.881 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:06.888 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:06.889 INFO - Executing: [click: 17 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:06.917 INFO - Done: [click: 17 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:06.922 INFO - Executing: [find elements: By.cssSelector: #id_mixpanel-api_key])
+02:52:07.155 INFO - Done: [find elements: By.cssSelector: #id_mixpanel-api_key]
+02:52:07.157 INFO - Executing: [is displayed: 18 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_key]])
+02:52:07.169 INFO - Done: [is displayed: 18 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_key]]
+02:52:07.171 INFO - Executing: [find element: By.cssSelector: #id_mixpanel-api_key])
+02:52:07.183 INFO - Done: [find element: By.cssSelector: #id_mixpanel-api_key]
+02:52:07.185 INFO - Executing: [send keys: 18 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_key], [9, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]])
+02:52:07.235 INFO - Done: [send keys: 18 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_key], [9, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]]
+02:52:07.239 INFO - Executing: [find elements: By.cssSelector: #id_mixpanel-api_secret])
+02:52:07.251 INFO - Done: [find elements: By.cssSelector: #id_mixpanel-api_secret]
+02:52:07.252 INFO - Executing: [is displayed: 19 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_secret]])
+02:52:07.265 INFO - Done: [is displayed: 19 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_secret]]
+02:52:07.268 INFO - Executing: [find element: By.cssSelector: #id_mixpanel-api_secret])
+02:52:07.282 INFO - Done: [find element: By.cssSelector: #id_mixpanel-api_secret]
+02:52:07.285 INFO - Executing: [send keys: 19 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_secret], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]])
+02:52:07.352 INFO - Done: [send keys: 19 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-api_secret], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]]
+02:52:07.355 INFO - Executing: [find elements: By.cssSelector: #id_mixpanel-project_token])
+02:52:07.370 INFO - Done: [find elements: By.cssSelector: #id_mixpanel-project_token]
+02:52:07.372 INFO - Executing: [is displayed: 20 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-project_token]])
+02:52:07.383 INFO - Done: [is displayed: 20 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-project_token]]
+02:52:07.386 INFO - Executing: [find element: By.cssSelector: #id_mixpanel-project_token])
+02:52:07.398 INFO - Done: [find element: By.cssSelector: #id_mixpanel-project_token]
+02:52:07.400 INFO - Executing: [send keys: 20 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-project_token], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]])
+02:52:07.453 INFO - Done: [send keys: 20 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: #id_mixpanel-project_token], [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 1]]
+02:52:07.457 INFO - Executing: [find elements: By.cssSelector: li.submit > button])
+02:52:07.465 INFO - Done: [find elements: By.cssSelector: li.submit > button]
+02:52:07.468 INFO - Executing: [is displayed: 21 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:07.485 INFO - Done: [is displayed: 21 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:07.489 INFO - Executing: [find element: By.cssSelector: li.submit > button])
+02:52:07.495 INFO - Done: [find element: By.cssSelector: li.submit > button]
+02:52:07.497 INFO - Executing: [click: 21 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]])
+02:52:07.522 INFO - Done: [click: 21 [[ChromeDriver: chrome on MAC (35a377df8c63cb372fbc1f7c4b2741b0)] -> css selector: li.submit > button]]
+02:52:07.525 INFO - Executing: [delete session: 420d5e5f-f3cb-479f-b37b-3e6ecfcedae2])
+02:52:08.087 INFO - Done: [delete session: 420d5e5f-f3cb-479f-b37b-3e6ecfcedae2]
