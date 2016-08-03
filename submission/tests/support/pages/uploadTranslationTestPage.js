@@ -114,10 +114,9 @@ define([
       return session
         .get(localeInfo.submissionUrl)
         .setFindTimeout(10000)
-        .findByXpath(elements.UPLOAD_VIDEO_BTN_LOCATOR)
-          .click()
-          .sleep(2000)
-          .end()
+        .then( () => {
+          return actions.clickButton(session, elements.UPLOAD_VIDEO_BTN_LOCATOR, 'xpath');
+        })
         .then( () => {
           return actions.uploadFileByXpath(session, elements.UPLOAD_VIDEO_BTN_LOCATOR2, properties.VIDEO_UPLOAD_LOCATION);
          })
@@ -163,11 +162,9 @@ define([
             });
         })
         .then ( () => {
-          return actions.clickButton(session, elements.UPLOAD_VIDEO_BTN_LOCATOR, 'xpath');
+          return actions.clickButton(session, elements.UPLOAD_SUBMIT_BTN_LOCATOR, 'xpath');
         })
-        .then ( () => {
-          return actions.clickButton(session, elements.UPLOAD_VIDEO_BTN_LOCATOR2, 'xpath');
-        });
+        .sleep(12000);
     }
 
   }; 
