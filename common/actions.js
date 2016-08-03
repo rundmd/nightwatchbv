@@ -1,7 +1,7 @@
 define([
   'intern/dojo/node!leadfoot/keys',
-  '../pages/elements',
-  '../pages/properties',
+  'submission/tests/support/pages/elements',
+  'submission/tests/support/pages/properties',
   'require'
 ], function(keys, elements, properties,require) {
   return {
@@ -192,14 +192,14 @@ define([
     uploadFileById: function (session, locator, file) {
       return session
         .findById(locator)
-          .type(require.toUrl('../' + file))
+          .type(require.toUrl(file))
           .end();
     },
 
     uploadFileByXpath: function (session, locator, file) {
       return session
         .findByXpath(locator)
-          .type(require.toUrl('../' + file))
+          .type(require.toUrl(file))
           .end();
     },
 

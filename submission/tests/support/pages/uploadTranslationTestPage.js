@@ -3,7 +3,7 @@ define([
   '../utils',
   './properties',
   './elements',
-  '../common/actions',
+  'common/actions',
   'intern/dojo/node!leadfoot/helpers/pollUntil',
   'require'
 ], function (assert, utils, properties, elements, actions, pollUntil, require){

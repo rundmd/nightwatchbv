@@ -3,7 +3,7 @@ define([
   '../utils',
   './elements',
   './properties',
-  '../common/actions',
+  'common/actions',
   'intern/dojo/node!leadfoot/helpers/pollUntil',
   'intern/dojo/node!leadfoot/keys',
   'intern/dojo/node!mongodb',

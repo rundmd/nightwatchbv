@@ -3,7 +3,7 @@ define([
   'intern/dojo/node!leadfoot/keys',
   './pages/elements',
   './pages/properties',
-  './common/actions',
+  'common/actions',
   'require'    
 ], function (assert, keys, elements, properties, actions, require) {
   return {

@@ -2,7 +2,7 @@ define([
     '../utils', 
     './elements', 
     './properties', 
-    '../common/actions',
+    'common/actions',
     'require'
 ], function (utils, elements, properties, actions, require) {
  

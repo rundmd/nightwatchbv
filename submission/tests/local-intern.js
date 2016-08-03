@@ -64,8 +64,8 @@ define({
 	//functionalSuites: [ 'tests/functional/channelFilter', 'tests/functional/langFilter', /*'tests/functional/multipleFilters'*/ ],
 	// functionalSuites: [ 'tests/functional/langFilter' ],
 	//functionalSuites: [ 'submission/tests/functional/uploadPhotoFail' ],
-	functionalSuites: [ 'submission/tests/functional/uploadPhoto' ],
-	//functionalSuites: [ 'submission/tests/functional/uploadTranslationTest' ],
+	//functionalSuites: [ 'submission/tests/functional/uploadPhoto' ],
+	functionalSuites: [ 'submission/tests/functional/uploadTranslationTest' ],
 	// A regular expression matching URLs to files that should not be included in code coverage analysis
 	excludeInstrumentation: /^(?:tests|node_modules)\//
 

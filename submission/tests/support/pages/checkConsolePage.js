@@ -7,7 +7,7 @@ define([
   './elements',
   './properties',
   './consoleElements',
-  '../common/actions',
+  'common/actions',
   './loginPage',
   'intern/dojo/node!leadfoot/helpers/pollUntil',
   'intern/dojo/node!leadfoot/keys',
