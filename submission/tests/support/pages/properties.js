@@ -1,4 +1,4 @@
-define({
+doooin.bazaarvoice.com({
   // General Properties 
   CONSOLE_URL: 'http://pippin.feedmagnet.com',
   SUBMISSION_URL: 'https://submit-stg.curations.bazaarvoice.com/?client=curations-one&productId=product1&group=pie-test',
@@ -35,6 +35,6 @@ define({
   FACEBOOK_PW: 'Patriots12$',
   // Mongodb settings   
   MONGO_LOCAL_HOST: 'localhost:27017/qa',
-  MONGO_QA_HOST: 'ip-10-100-39-155.qa.us-east-1.nexus:27017/qa'
+  MONGO_QA_HOST: 'mongo-prod-fm3.nexus.bazaarvoice.com:27017/qa'
 });
 
