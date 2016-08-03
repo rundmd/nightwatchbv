@@ -1,4 +1,4 @@
-doooin.bazaarvoice.com({
+define ({
   // General Properties 
   CONSOLE_URL: 'http://pippin.feedmagnet.com',
   SUBMISSION_URL: 'https://submit-stg.curations.bazaarvoice.com/?client=curations-one&productId=product1&group=pie-test',
