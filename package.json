@@ -2,7 +2,11 @@
   "name": "submission-regression",
   "version": "1.0.0",
   "dependencies": {
+    "findit": "^2.0.0",
+    "glob": "^7.0.5",
     "intern": ">=3.2.3",
+    "jsonfile": "^2.3.1",
+    "minimist": "^1.2.0",
     "mongodb": "^2.2.5",
     "monk": "^3.1.0"
   }

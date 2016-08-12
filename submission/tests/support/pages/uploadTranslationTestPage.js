@@ -23,13 +23,13 @@ define([
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_PHOTO_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.uploadPhotoText);
+              assert.equal(results, localeInfo.uploadButton);
             });
         })
         .then( () => {
           return actions.getTextByXpath(session, elements.TAKE_A_PHOTO_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.takePhotoText);
+              assert.equal(results, localeInfo.takeButton);
             });
         })
         .then( () => {
@@ -37,20 +37,20 @@ define([
             .then( (results) => {
             /*
              * This assertion is broken until 'Upload a video' translation is fixed
-             *  assert.equal(results, localeInfo.uploadVideoText);
+             *  assert.equal(results, localeInfo.video);
              */
             });
         })
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_FB_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.uploadFacebookText);
+              assert.equal(results, localeInfo.chooseFb);
             });
         })
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_INSTA_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.uploadInstagramText);
+              assert.equal(results, localeInfo.chooseIg);
             });
         });
     },
@@ -66,7 +66,7 @@ define([
          .then( () => {
            return actions.getPropertyByXpath(session, elements.UPLOAD_PHOTO_COMMENT_LOCATOR, 'placeholder')
              .then( (results) => {
-               assert.equal(results, localeInfo.commentText);
+               assert.equal(results, localeInfo.commentPlaceholder);
              });
          })
         .then( () => {
@@ -76,7 +76,7 @@ define([
         .then( () => {
           return actions.getPropertyByXpath(session, elements.UPLOAD_NICKNAME_LOCATOR, 'placeholder')
             .then( (results) => {
-              assert.equal(results, localeInfo.nicknameText);
+              assert.equal(results, localeInfo.nicknamePlaceholder);
             });
         })
         .then( () => {
@@ -86,7 +86,7 @@ define([
         .then( () => {
           return actions.getPropertyByXpath(session, elements.UPLOAD_TC_TEXT, 'innerText')
             .then( (results) => {
-              assert.equal(results, localeInfo.rmText);
+              assert.equal(results, localeInfo.agree);
             });
         })
         .then( () => {
@@ -95,13 +95,13 @@ define([
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_SUBMIT_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.postBtnText);
+              assert.equal(results, 'Post');
             });
         })
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_BACK_BTN)
             .then( (results) => {
-              assert.equal(results, localeInfo.backBtnText);
+              assert.equal(results, localeInfo.back);
             });
         })
         .then ( () => {
@@ -123,7 +123,7 @@ define([
          .then( () => {
            return actions.getPropertyByXpath(session, elements.UPLOAD_VIDEO_COMMENT_LOCATOR, 'placeholder')
              .then( (results) => {
-               assert.equal(results, localeInfo.commentText);
+               assert.equal(results, localeInfo.commentPlaceholder);
              });
          })
         .then( () => {
@@ -133,7 +133,7 @@ define([
         .then( () => {
           return actions.getPropertyByXpath(session, elements.UPLOAD_VIDEO_NICKNAME_LOCATOR, 'placeholder')
             .then( (results) => {
-              assert.equal(results, localeInfo.nicknameText);
+              assert.equal(results, localeInfo.nicknamePlaceholder);
             });
         })
         .then( () => {
@@ -143,7 +143,7 @@ define([
         .then( () => {
           return actions.getPropertyByXpath(session, elements.UPLOAD_TC_TEXT, 'innerText')
             .then( (results) => {
-              assert.equal(results, localeInfo.rmText);
+              assert.equal(results, localeInfo.agree);
             });
         })
         .then( () => {
@@ -152,19 +152,19 @@ define([
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_SUBMIT_BTN_LOCATOR)
             .then( (results) => {
-              assert.equal(results, localeInfo.postBtnText);
+              assert.equal(results, 'Post');
             });
         })
         .then( () => {
           return actions.getTextByXpath(session, elements.UPLOAD_BACK_BTN)
             .then( (results) => {
-              assert.equal(results, localeInfo.backBtnText);
+              assert.equal(results, localeInfo.back);
             });
         })
         .then ( () => {
           return actions.clickButton(session, elements.UPLOAD_SUBMIT_BTN_LOCATOR, 'xpath');
         })
-        .sleep(12000);
+        .sleep(5000);
     }
 
   }; 

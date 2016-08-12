@@ -1,0 +1,6 @@
+{
+  "mongoHostLocal" : "mongodb://localhost:27017/qa",
+  "mongoHostProd" : "mongodb://mongo-prod-fm3.nexus.bazaarvoice.com:27017/qa",
+  "product" : "Papaver orientale",
+  "submissionUrl" : "https://submit-stg.curations.bazaarvoice.com/?client=curations-one&productId=product1&group=pie-test"
+}

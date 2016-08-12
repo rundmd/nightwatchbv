@@ -35,6 +35,6 @@ define ({
   FACEBOOK_PW: 'Patriots12$',
   // Mongodb settings   
   MONGO_LOCAL_HOST: 'localhost:27017/qa',
-  MONGO_QA_HOST: 'mongo-prod-fm3.nexus.bazaarvoice.com:27017/qa'
+  MONGO_PROD_HOST: 'mongo-prod-fm3.nexus.bazaarvoice.com:27017/qa'
 });
 

@@ -1,0 +1,4 @@
+[submodule "submission/curations-submission"]
+	path = submission/curations-submission
+	url = https://github.com/bazaarvoice/curations-submission.git
+	branch = staging
