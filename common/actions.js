@@ -18,6 +18,8 @@ define([
         return this.clickButtonByXpath(session, locator);
       } else if (type == 'id') {
         return this.clickButtonById(session, locator);
+      } else if (type == 'css') {
+        return this.clickButtonByCssSelector(session, locator);
       }
     },
 
@@ -56,6 +58,8 @@ define([
         return this.getTextByXpath(session, locator);
       } else if (type == 'id') {
         return this.getTextById(session, locator);
+      } else if (type == 'css') {
+        return this.getTextByCssSelector(session, locator);
       }
     },
 
@@ -171,6 +175,12 @@ define([
           .getVisibleText();
     },
 
+    getTextByCssSelector: function (session, locator) {
+      return session
+        .findByCssSelector(locator)
+          .getVisibleText();
+    },
+
     getTextById: function (session, locator) {
       return session
         .findById(locator)
@@ -206,6 +216,13 @@ define([
     clickButtonByXpath: function (session, locator) {
       return session
         .findByXpath(locator)
+        .click()
+        .end();
+    },
+
+    clickButtonByCssSelector: function (session, locator) {
+      return session
+        .findByCssSelector(locator)
         .click()
         .end();
     },
