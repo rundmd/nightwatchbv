@@ -1,0 +1,102 @@
+23:54:12.369 INFO - Launching a standalone Selenium Server
+23:54:12.398 INFO - Java: Oracle Corporation 25.65-b01
+23:54:12.398 INFO - OS: Mac OS X 10.10.5 x86_64
+23:54:12.408 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+23:54:12.464 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+23:54:12.464 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+23:54:12.464 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:54:12.464 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:54:12.466 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+23:54:12.466 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+23:54:12.528 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:54:12.528 INFO - Selenium Server is up and running
+23:54:12.808 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Moderate Post, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+23:54:12.816 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, marionette=true, name=Moderate Post, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+1479794053052	geckodriver	INFO	Listening on 127.0.0.1:15838
+1479794053083	mozprofile::profile	INFO	Using profile path /var/folders/nz/kpcby4vj3zx7_zk9ptm0qzrcqy_sjg/T/rust_mozprofile.3PZnp8YIUh1F
+1479794053084	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1479794053086	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63917
+1479794053630	Marionette	INFO	Listening on port 63917
+1479794054677	Marionette	INFO	startBrowser 956a066b-faec-f841-866f-68251956e437
+23:54:14.976 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, marionette=true, name=Moderate Post, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+23:54:14.989 INFO - Executing: [get: http://regression.feedmagnet.com/beta_tab])
+23:54:17.840 INFO - Done: [get: http://regression.feedmagnet.com/beta_tab]
+23:54:17.849 INFO - Executing: [find elements: By.cssSelector: #fm-form-login > div > button])
+23:54:17.870 INFO - Done: [find elements: By.cssSelector: #fm-form-login > div > button]
+23:54:17.874 INFO - Executing: [is displayed: 0 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #fm-form-login > div > button]])
+23:54:17.888 INFO - Done: [is displayed: 0 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #fm-form-login > div > button]]
+23:54:17.893 INFO - Executing: [find element: By.cssSelector: #id_username])
+23:54:17.900 INFO - Done: [find element: By.cssSelector: #id_username]
+23:54:17.903 INFO - Executing: [send keys: 1 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #id_username], [t, e, s, t, e, r]])
+23:54:17.930 INFO - Done: [send keys: 1 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #id_username], [t, e, s, t, e, r]]
+23:54:17.933 INFO - Executing: [find element: By.cssSelector: #id_password])
+23:54:17.941 INFO - Done: [find element: By.cssSelector: #id_password]
+23:54:17.945 INFO - Executing: [send keys: 2 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #id_password], [P, a, s, s, w, o, r, d, 1, 2, 3, !]])
+23:54:17.971 INFO - Done: [send keys: 2 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #id_password], [P, a, s, s, w, o, r, d, 1, 2, 3, !]]
+23:54:17.974 INFO - Executing: [find element: By.cssSelector: #fm-form-login > div > button])
+23:54:17.980 INFO - Done: [find element: By.cssSelector: #fm-form-login > div > button]
+23:54:17.983 INFO - Executing: [click: 0 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #fm-form-login > div > button]])
+23:54:18.008 INFO - Done: [click: 0 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #fm-form-login > div > button]]
+23:54:18.016 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:18.024 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:18.534 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:18.541 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:19.050 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:19.056 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:19.565 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:19.572 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:20.080 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:20.087 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:20.596 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:20.602 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:21.112 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:21.119 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:21.625 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:21.631 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:22.138 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:22.151 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:22.658 INFO - Executing: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:24.063 INFO - Done: [find elements: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:24.069 INFO - Executing: [is displayed: 3 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]])
+23:54:24.178 INFO - Done: [is displayed: 3 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]]
+23:54:24.182 INFO - Executing: [find element: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button])
+23:54:24.365 INFO - Done: [find element: By.cssSelector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]
+23:54:24.369 INFO - Executing: [click: 3 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]])
+23:54:24.575 INFO - Done: [click: 3 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div.Overlay > div:nth-child(2) > div > div.PanelHeader > button]]
+23:54:24.581 INFO - Executing: [find elements: By.cssSelector: #react-select-4--value])
+23:54:24.964 INFO - Done: [find elements: By.cssSelector: #react-select-4--value]
+23:54:24.968 INFO - Executing: [is displayed: 4 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--value]])
+23:54:24.982 INFO - Done: [is displayed: 4 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--value]]
+23:54:24.986 INFO - Executing: [find element: By.cssSelector: #react-select-4--value])
+23:54:24.992 INFO - Done: [find element: By.cssSelector: #react-select-4--value]
+23:54:24.995 INFO - Executing: [click: 4 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--value]])
+23:54:25.028 INFO - Done: [click: 4 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--value]]
+23:54:25.032 INFO - Executing: [find element: By.cssSelector: #react-select-4--option-0])
+23:54:25.043 INFO - Done: [find element: By.cssSelector: #react-select-4--option-0]
+23:54:25.046 INFO - Executing: [click: 5 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--option-0]])
+23:54:25.935 INFO - Done: [click: 5 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #react-select-4--option-0]]
+23:54:25.942 INFO - Executing: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img])
+23:54:26.168 INFO - Done: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]
+23:54:26.676 INFO - Executing: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img])
+23:54:27.681 INFO - Done: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]
+23:54:27.685 INFO - Executing: [is displayed: 6 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]])
+23:54:27.757 INFO - Done: [is displayed: 6 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]]
+23:54:27.761 INFO - Executing: [find element: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img])
+23:54:27.828 INFO - Done: [find element: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]
+23:54:27.831 INFO - Executing: [click: 6 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]])
+23:54:27.870 INFO - Done: [click: 6 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img]]
+23:54:27.875 INFO - Executing: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)])
+23:54:28.382 INFO - Done: [find elements: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]
+23:54:28.386 INFO - Executing: [is displayed: 7 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]])
+23:54:28.476 INFO - Done: [is displayed: 7 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]]
+23:54:28.480 INFO - Executing: [find element: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)])
+23:54:28.512 INFO - Done: [find element: By.cssSelector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]
+23:54:28.517 INFO - Executing: [click: 7 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]])
+23:54:28.621 INFO - Done: [click: 7 [[MarionetteDriver: firefox on MAC (956a066b-faec-f841-866f-68251956e437)] -> css selector: #content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)]]
+23:54:28.626 INFO - Executing: [delete session: 76f23c27-7788-4a5e-8d92-918009af69cf])
+[Child 69763] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 677
+[Child 69763] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+[Child 69763] ###!!! ABORT: Aborting on channel error.: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2052
+23:54:28.774 INFO - Done: [delete session: 76f23c27-7788-4a5e-8d92-918009af69cf]

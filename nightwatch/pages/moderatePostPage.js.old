@@ -1,0 +1,45 @@
+var moderateCommands = {
+  approve: function() {
+    return this.waitForElementVisible('@moderateGroupFilterLocator', 10000)
+      .click('@moderateGroupFilterLocator')
+      .click('@filterOptionLocator')
+      .waitForElementVisible('@postLocator', 10000)
+      .click('@postLocator')
+      .waitForElementVisible('@approveIconLocator', 10000)
+      .click('@rejectIconLocator');
+  },
+
+  reject: function() {
+    return this.waitForElementVisible('@moderateGroupFilterLocator', 10000)
+      .click('@moderateGroupFilterLocator')
+      .click('@filterOptionLocator')
+      .waitForElementVisible('@postLocator', 10000)
+      .click('@postLocator')
+      .waitForElementVisible('@rejectIconLocator', 10000)
+      .click('@rejectIconLocator');
+  }
+
+};
+
+module.exports = {
+  commands: [moderateCommands],
+  //url: 'http://regression.feedmagnet.com',
+  elements: {
+    moderateGroupFilterLocator: {
+      selector: '#react-select-4--value'
+    },
+    postLocator: {
+      selector: '#content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(1) > div > div > img'
+    },
+    filterOptionLocator: {
+      selector: '#react-select-4--option-0' //content-groups
+    },
+    approveIconLocator: {
+      selector: '#content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(1)'
+    },
+    rejectIconLocator: {
+      selector: '#content > div > div:nth-child(2) > section > div.panel-body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div > div > div > div:nth-child(3) > div > div > div > button:nth-child(2)'
+    }
+  }
+};
+

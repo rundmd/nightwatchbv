@@ -1,0 +1,29 @@
+var locators = require('../config/locators.js');
+
+var moderateCommands = {
+  approve: function() {
+    return this.waitForElementVisible(locators.moderateGroupFilterLocator, 10000)
+      .click(locators.moderateGroupFilterLocator)
+      .click(locators.filterOptionLocator)
+      .waitForElementVisible(locators.postLocator, 10000)
+      .click(locators.postLocator)
+      .waitForElementVisible(locators.approveIconLocator, 10000)
+      .click(locators.rejectIconLocator);
+  },
+
+  reject: function() {
+    return this.waitForElementVisible(locators.moderateGroupFilterLocator, 10000)
+      .click(locators.moderateGroupFilterLocator)
+      .click(locators.filterOptionLocator)
+      .waitForElementVisible(locators.postLocator, 10000)
+      .click(locators.postLocator)
+      .waitForElementVisible(locators.rejectIconLocator, 10000)
+      .click(locators.rejectIconLocator);
+  }
+
+};
+
+module.exports = {
+  commands: [moderateCommands]
+};
+
