@@ -10,7 +10,7 @@ module.exports = {
       .navigate()
       .signin();
     helpers.dismissBetaOverlay(client, locators.BETA_TAB_OVERLAY);
-    moderate.reject();
+    moderate.reject(client);
     client.end();
 
   }
